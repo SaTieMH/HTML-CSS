@@ -565,4 +565,60 @@ div:hover {
  - pseudo-elementos.html
  - text-decoration: none; tira o sublinhado de um link
  - (pseudo classe) a:active - enquanto está clicado
-  teste
+ - Outras duas pseudo-classes: active e visited
+```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(35, 172, 23);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+```
+
+ - Pseudo-classes: palavras que definem estados de elementos dentro da HTML. (:)
+ - Pseudo-elemento: Pode agira nas classes, elementos, ids,... Eles mexem diretamente no conteúdo periférico do elemento. (::)
+
+```css
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a::after {
+  content: ' [link]';
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+```
+
+ - https://erikasarti.com/html/dingbats-simbolos-desenhos/
+ - Site com tabela de símbolos especiais (e outros) em HTML
+ - Aplicando classes e modificando-as em CSS. E modificando as classes por meio de pseudo-elementos.
+ - RESUMO
+  - \# = id
+  - . = class
+  - : = pseudo-class
+  - :: = pseudo-element
+  - \>  = children
