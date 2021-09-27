@@ -616,9 +616,14 @@ a::after {
  - https://erikasarti.com/html/dingbats-simbolos-desenhos/
  - Site com tabela de símbolos especiais (e outros) em HTML
  - Aplicando classes e modificando-as em CSS. E modificando as classes por meio de pseudo-elementos.
- - RESUMO
+ - RESUMO de algumas simbologias das CSS de seletores personalizados
   - \# = id
   - . = class
   - : = pseudo-class
   - :: = pseudo-element
   - \>  = children
+
+------------------------------------------------
+## Capítulo 16 - Modelos de Caixas
+------------------------------------------------
+### Primeiros passos - Aula 01 [exercício 23]
