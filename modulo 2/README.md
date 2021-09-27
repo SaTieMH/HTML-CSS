@@ -565,3 +565,4 @@ div:hover {
  - pseudo-elementos.html
  - text-decoration: none; tira o sublinhado de um link
  - (pseudo classe) a:active - enquanto está clicado
+  teste
