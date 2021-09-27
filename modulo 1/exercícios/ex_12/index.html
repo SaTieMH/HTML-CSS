@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midias/Pexels Videos_original.webm" width="500" controls poster="midias/limoes-capa.png" autoplay loop></video>
+
+    <p>Mas para garantir, vamos colocar mais formatos de vídeo para ter mais chance de funcionar na maioria dos navegadores</p>
+    <video controls width="700" poster="midias/limoes-capa.png">
+        <source src="midias/Pexels Videos_original.webm" type="video/webm">
+        <source src="midias/Pexels Videos_original.mp4" type="video/mp4">
+        <source src="midias/Pexels Videos_VimeoYoutube_720p_30fps.m4v" type="video/mp4">
+        <source src="midias/Pexels-Videos_original.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    
+    <h1>Inserindo vídeos do Vímeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&color=ffffff&portrait=0" width="560" height="315"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+<footer>
+    <p>Vídeos de Kally Lacy - Pexels</p>
+</footer>
+</html>
