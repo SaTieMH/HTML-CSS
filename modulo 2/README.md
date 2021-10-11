@@ -644,9 +644,36 @@ Aplicável ao HTML5 e CSS3 que facilta muito a organização do design e as part
   <img src="imagens/boxModel.jpg" alt="Modelo_de_caixas">
 </div>
 
- - todo elemento visivel dentr da tela e um site é uma caixa (em pontilhado)
+ - todo elemento visivel dentr da tela e um site é uma caixa (em pontilhado). No momento em que eu escolho h1, eu já estou configurando a caixa que sera utilizada
 
 <div align="center">
   <img src="imagens/helloWorldBox.jpg" alt="Caixa do Hello World">
 </div>
 
+##### Termos e dimensões da caixa
+A parte do conteúdo é delimitada pela parte pontilhada.
+ - Altura (height)
+ - Largura (width)
+
+<div align="center">
+  <img src="imagens/pontilhadaConteudo.jpg" alt="Perte do Conteúdo">
+</div>
+
+ - Também posso traçar uma linha ao redor da caixa pontilhada, chamada de borda, ou border, que circunda o seu conteúdo. Ela fica bem próxima do pontilhado. (dentro do elemento)
+ - Mas também posso dar uma folga entre o conteúdo e a borda. Este seria o padding (acolchoamento ou preenchimento) isso dá uma distância entre a borda e o conteúdo. O padding pode ser aplicado apenas de um lado, dos dois laods, em cima, em baixo ou em todos os lados uniformemente.
+
+<div align="center">
+  <img src="imagens/borderPadding.jpg" alt="Border e Padding">
+</div>
+
+ - Margin - espaçamento externo para que, quando eu acrescentar uma nova caixa, esta não fique grudada na borda do meu elemento.
+
+<div align="center">
+  <img src="imagens/margin.jpg" alt="Margin">
+</div>
+
+ - Outline - Contorno ou traçado é a linha ao redor da borda (fora do elemento)
+
+<div align="center">
+  <img src="imagens/outline.jpg" alt="outline">
+</div>
