@@ -626,6 +626,27 @@ a::after {
 ------------------------------------------------
 ## Capítulo 16 - Modelos de Caixas
 ------------------------------------------------
-### Primeiros passos - Aula 01 [exercício 23]
+### Primeiros passos - Aula 01
 
-teste de alteração
+Modelos de caixas, ou box model é a teoria sobre o boz sizing e a forma como os boxes são exibidos.
+
+Aplicável ao HTML5 e CSS3 que facilta muito a organização do design e as partes do seu site.
+
+#### Paradigma
+ - Pensar que tudo o que está sendo exibido na página está no modelo de caixas.
+ - É possível ter caixas, uma dentro da outra, o que vai facilitar ainda mais a organização do site. Isso forma uma hierarquia entre os elementos.
+ - A organização de uma caixa dentro da outra se dá o nome de aninhamento.
+
+##### Exemplo
+ - o h1 é um elemento de caixa
+
+<div align="center">
+  <img src="imagens/boxModel.jpg" alt="Modelo_de_caixas">
+</div>
+
+ - todo elemento visivel dentr da tela e um site é uma caixa (em pontilhado)
+
+<div align="center">
+  <img src="imagens/helloWorldBox.jpg" alt="Caixa do Hello World">
+</div>
+
