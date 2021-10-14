@@ -677,3 +677,9 @@ A parte do conteúdo é delimitada pela parte pontilhada.
 <div align="center">
   <img src="imagens/outline.jpg" alt="outline">
 </div>
+
+#### Tipos de Caixas
+##### box-level
+
+
+##### inline-level
