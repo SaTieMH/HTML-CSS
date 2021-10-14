@@ -694,6 +694,9 @@ A parte do conteúdo é delimitada pela parte pontilhada.
 </div>
 
 ##### Outros exemplos de tags de acordo com o tipo de caixa
+<div align="center">
+  <img src="imagens/boxEinlineLevelExemplos.jpg" alt="exemplos de tags de box level e inline level">
+</div>
 
 ------------------------------------------------
 ### Primeiros passos - Aula 01
