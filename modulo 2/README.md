@@ -680,6 +680,20 @@ A parte do conteúdo é delimitada pela parte pontilhada.
 
 #### Tipos de Caixas
 ##### box-level
-
+ - Sempre se inicia em uma linha nova
+ - Ocupa a largura total da tela (100% do viewport)
+ - Exemplo de tag: \<div>
 
 ##### inline-level
+ - Desenha a caixa na sequência do que já foi feito
+ - O tamanho da caixa se adequa ao tamanho do que será inserido dentro dela
+ - Exemplo de tag: \<span> (expansão de código que não quebra a linha)
+
+<div align="center">
+  <img src="imagens/boxEinlineLevel.jpg" alt="box level e inline level">
+</div>
+
+##### Outros exemplos de tags de acordo com o tipo de caixa
+
+------------------------------------------------
+### Primeiros passos - Aula 01
