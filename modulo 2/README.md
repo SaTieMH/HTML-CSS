@@ -699,4 +699,16 @@ A parte do conteúdo é delimitada pela parte pontilhada.
 </div>
 
 ------------------------------------------------
-### Primeiros passos - Aula 01
+### Modelo de Caixas na prática (parte 1) - Aula 02 [exercício 23]
+ - caixa01.html
+
+ - User agent stylesheet ou folha de estilos de agente de usuário: folhas de estilos que foram configuradas automáticamente pelo user agent (navegador que está exibindo o conteúdo)
+ - EXEMPLO:
+  - \<h1> é do tipo display: block (elemento do tipo box-level)
+  - \<a> é do tipo inline-block
+
+ - É possível alterar o estilo diretamente do navegador. Isso altera a visualização momentaneamente, porém não altera o código. Ou seja, quando a página for atualizada os valores dispostos nas folhas de estilo estarão valendo e o que foi modificado diretamente no dev tools do navegador será perdido.
+ - Também é possível "desligar" parâmetro a parâmetro da folha de estilos e ver como se comportaria caso essa condição fosse retirada do código.
+<div align="center">
+  <img src="imagens/alterandoDiretoNoInspetor.jpg" alt="Alterando o estilo diretamente do Inspetor de elementos do navegador">
+</div>
