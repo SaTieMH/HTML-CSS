@@ -6,4 +6,4 @@ Códigos baseados no curso do professor Gaunabara
 
 https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n
 
-Obs: este não é um documento oficial, mas gosto muito e apoio o trabalho dele
+Obs: este não é um documento oficial, mas gosto muito e apoio o trabalho dele ;)
