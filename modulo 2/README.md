@@ -712,3 +712,24 @@ A parte do conteúdo é delimitada pela parte pontilhada.
 <div align="center">
   <img src="imagens/alterandoDiretoNoInspetor.jpg" alt="Alterando o estilo diretamente do Inspetor de elementos do navegador">
 </div>
+
+ - Exemplos de bordas:
+```css
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+}
+
+a {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+    //border-style: dotted;
+    //border-style: double;
+    //border-style: groove;
+}
+```
