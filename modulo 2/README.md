@@ -763,3 +763,40 @@ h1 {
 ```
 
 #### Outline
+- Fica entre a borda e a margem
+- Ele é desenhado por dentro da margem, sendo assim ele fica sempre dentro da margem.
+```css
+h1 {
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: blueviolet;
+}
+```
+
+### Colocando tudo em shorthands
+#### padding
+- no shorthand sempre colocar nessa ordem
+- lembrar do sentido do relógio
+```css
+padding: 10px 10px 10px 10px;
+```
+
+Se coloco apenas 2 medidas:
+- 1ª medida representa top e bottom
+- 2ª medida representa right e left
+```css
+padding: 10px 20px;
+```
+
+NESTE CASO, como todos os valores são iguais, posso colocar o valor apenas 1 vez:
+```css
+padding: 10px;
+```
+
+#### margin
+- Se quiser centralizar a margem da esquerda e direita, posso colocar 'auto' que o box ficerá centralizado
+```css
+margin: 20px auto 40px auto;
+```
+
+#### Aplicando o shorthand em h1
