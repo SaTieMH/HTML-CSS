@@ -722,6 +722,11 @@ h1 {
     border-width: 10px;
     border-style: solid;
     border-color: darkslategray;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 a {
@@ -733,3 +738,28 @@ a {
     //border-style: groove;
 }
 ```
+ - ORDEM PARA MOSTRAR O PADDING: Pensar sempre na ordem de um ponteiro de relógio (cima, direita, baixo e esquerda).
+
+------------------------------------------------
+### Modelo de Caixas na prática (parte 2) - Aula 02 [exercício 23]
+ - caixa01.html
+
+#### Margem (margin)
+- Explorando as margens: Elemento externo ao border.
+```css
+h1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+```
+
+- Para centralizar caixa:
+```css
+h1 {
+    margin: auto;
+}
+```
+
+#### Outline
