@@ -799,4 +799,65 @@ padding: 10px;
 margin: 20px auto 40px auto;
 ```
 
-#### Aplicando o shorthand em h1
+#### Box level e Inline level
+- Um elemento vem como padrão sendo box level ou inline level
+- Para alterar seu tipo basta utilizar o "display"
+```css
+display: inline;
+/*ou display: block
+ou display inline-block*/
+```
+- Lembrando que quando muda de box para inline não se configura altura e largura.
+
+------------------------------------------------
+### Grouping Tags em HTML5 [exercício 23]
+ - caixa02.html
+
+- No geral posso separar tudo por <div> e <spam>
+- Porém, para que fique mais valorizado o site e para que os buscadores valorizem mais seu conteúdo é importante utlizar outras tags novas utilizadas no HTML5
+- Separe seu <body> em <header>, <main> e <footer>
+- Essas são tags semânticas (não tenho mais a necessidade de dar id para todas elas) ou Grouping Tags semânticas.
+- Ou seja, tem exatamente a mesma função de uma <div>, porém essas tags possuem sentido semântico.
+- Não existe limite de ordena~]ao de gruping tags, ou seja, posso colocar qualquer uma dentro da outra, não existe uma restrição quanto a isso.
+
+#### <body>
+- Como o próprio nome já diz, é o corpo do teu site
+
+#### <header>
+- Não confundir com <head> (cabeça).
+- O <header> é o cabeçalho da página
+
+#### <main>
+- Conteúdo principal da sua página
+
+#### <footer>
+- A página pode um não ter um footer, onde geralmente são colocadas as informações sobre o site/empresa
+
+#### <nav>
+- Para criar um menu
+
+#### Outras tags semânticas
+- <section> (divide conteúdo em partes)
+- <article> (divide conteúdo em partes)
+- <aside> (conteúdo periférico ao artigo)
+
+------------------------------------------------
+### Sombra nas caixas [exercício 23]
+ - caixa02.html
+
+### Elelmentos de um box shadow
+```css
+box-shadow: 1px 2px 3px black;
+```
+- Observando os elementos na ordem:
+ - Deslocamento  Horizontal [1px]
+ - Deslocamento Vertical [2px]
+ - Espalhamento [3px]
+ - Sombra [black]
+
+- No geral, sempre quando for trabalhar com sombra coloca a seguinte configuração:
+```css
+box-shadow: 1px 1px 1px black;
+```
+- Isso já gera uma pequena sombra. Depois você configura como vai ficar essa sombra dentro do inspecionar (ou no caso como prefiro, pego as configurações de sombra diretamente no protótipo do Figma)
+- 
