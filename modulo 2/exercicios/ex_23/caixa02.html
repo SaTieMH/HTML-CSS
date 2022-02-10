@@ -18,18 +18,24 @@
         nav {
             background-color: brown;
             padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.329);
         }
         nav > a {
             text-decoration: none;
             color: white;
             font-weight: bold;
             margin-right: 30px;
-            box-shadow: 1px 1px 1px black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: aquamarine;
         }
         main {
             background-color: white;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.397);
         }
         article {
             background-color: lightgray;
@@ -48,6 +54,14 @@
         footer > p {
             margin: 0px;
         }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset -8px -8px 20px 0px rgba(0, 0, 0, 0.4);
+        }
     </style>
 </head>
 <body>
@@ -62,7 +76,7 @@
     </header>
     <main>
         <section id="assunto">
-
+            <p>Assunto da página</p>
         </section>
         <section id="notícia">
             <article>
@@ -80,5 +94,6 @@
     <footer>
         <p>Desenvolvido por Curso em Vídeo</p>
     </footer>
+    <div id="bola"></div>
 </body>
 </html>

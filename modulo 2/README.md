@@ -860,4 +860,77 @@ box-shadow: 1px 2px 3px black;
 box-shadow: 1px 1px 1px black;
 ```
 - Isso já gera uma pequena sombra. Depois você configura como vai ficar essa sombra dentro do inspecionar (ou no caso como prefiro, pego as configurações de sombra diretamente no protótipo do Figma)
-- 
+- Mas também consigo criar minha própria sombra indo até inspecionar, no caso no <nav> e indo em cima dos 3 pontinhos, vai aparecer uma opção (segunda opção) para mexer na sombra
+- instruções mais detalhadas no vídeo do Guanabara https://www.youtube.com/watch?v=JACiDRNWjjQ&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=29&ab_channel=CursoemV%C3%ADdeo no momento 7:07 do vídeo
+- Para deixar a sombra mais clara, coloca uma transparência maior
+- Não funciona no Edge :'(
+
+- box-shadow: [inset] [x-offset] [y-offset] [blur] [spread] [color]
+
+------------------------------------------------
+### Caixas com vértices arredondados [exercício 23]
+ - caixa02.html
+
+#### Border radius
+- Posso colocar a mesma borda em todos os lados
+```css
+border-radius: 5px;
+```
+
+- Ou posso configurar e colocar bordas arredondadas de diferentes tamanhos em cada um dos cantos
+```css
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+```
+
+- Posso também utilizar um shorthand para este caso para configurar as 4 bordas individualmente
+```css
+border-radius: 5px 10px 15px 20px;
+```
+
+- Ou configurar as bordas opostas iguais
+```css
+border-radius: 5px 10px;
+```
+- Para transformar um quadrado em um círculo
+```css
+border-radius: 50%;
+```
+
+------------------------------------------------
+### Bordas decoradas [exercício 23]
+ - caixa03.html
+
+#### Criando a borda no Gimp (vou fazer no Figma mesmo)
+- Criei a imagem da borda.png no Figma
+
+#### Inserindo borda decorada
+```css
+h1 {
+  border: 10px solid black;
+  padding: 10px;
+  border-image-source: url('borda.png');
+  border-image-slice: 26;
+  border-image-repeat: repeat;
+```
+- Ajustar o 'slice' para que o que você desenhou se adeque ao tamanho que deseja (de preferência faça isso no dev tools)
+- 'repeat' pode ser 'repeat' ou 'stretch' dependendo do efeito desejado
+
+- Também posso usar no modo shorthand (source, slice, repeat)
+```css
+h1 {
+  border: 10px solid black;
+  padding: 10px;
+  border-image: url('borda.png') 26 repeat;
+```
+
+- PRECISA TER 'border', por que senão ele não vai aparecer a borda decorada. Pode usar 'transparent' no lugar de 'black', mas tem que ter o 'border'.
+- Lembrando que nem todos os navegadores tem compatibilidade com bordas decoradas.
+
+------------------------------------------------
+### DESAFIO do módulo 2 [desafio 010]
+ - desafio010.html
+
+- Desafio do capítulo 16 - desafio 10
