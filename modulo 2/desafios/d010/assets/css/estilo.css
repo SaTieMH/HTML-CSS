@@ -1,0 +1,23 @@
+/*
+Filename: estilo.css
+Author: Natália Satie
+Date: 15/02/2022
+*/
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    background: linear-gradient(180deg, #3CDC83 0%, #195B38 100%);
+}
+
+nav {
+
+}
+
+main {
+    background-color: white;
+    margin: 0px 20px;
+}

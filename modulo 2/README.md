@@ -934,3 +934,16 @@ h1 {
  - desafio010.html
 
 - Desafio do capítulo 16 - desafio 10
+
+------------------------------------------------
+## Capítulo 17 - Desafio
+------------------------------------------------
+### Criando um projeto a partir do zero
+------------------------------------------------
+### Navegando pelo projeto pronto
+------------------------------------------------
+### Planejando a estrutura do seu site
+
+- Criar uma conta no Mockflow - desenhar a estrutura do seu site
+ - https://mockflow.com/
+mm
