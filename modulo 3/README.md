@@ -92,7 +92,23 @@
     </br></br></br>
     <li>
     Repita os passos de como criar um github pages para este repositório. Pois lembrando que ao fazer isso, a criação do githubpages passa a valer apenas para o repositório selecionado. Como foi criado um novo é necessário repetir os passos.</br>
+    A única difenrença será que, ao invés de escolher um tema pode alterar a branch selecionada (neste caso 'main')</br>
+    <img src="imagens/projeto-github-pages/passo-5.png" alt="github pages page" align="center">
     </li>    
   </ol> 
 </div>
 </br></br></br>
+
+------------------------------------------------
+### Manutenção em sites hospedados no GitHub Pages - Aula 07
+
+------------------------------------------------
+### Recursos Sociais do GitHub - Aula 08
+
+------------------------------------------------
+### Clonando Repositórios GitHub - Aula 09
+
+------------------------------------------------
+### GitHub em vários PCs - Aula 10
+
+- É necessário ter instalado o git e o GitHub desktop no pc que você faráo clone.
