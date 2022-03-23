@@ -36,15 +36,33 @@
     Vá em "Settings"</br>
     <img src="imagens/passo-1.png" alt="settings" align="center">
     </li>
+    <li>
+    Encontre GitHub pages e clique no ícone</br>
+    <img src="imagens/passo-2.png" alt="github pages" align="center">
+    </li>
+    <li>
+    Escolha um tema</br>
+    <img src="imagens/passo-3.png" alt="github pages page" align="center">
+    </li>
+    <li>
+    Após escolhido um tema confirme a seleção</br>
+    <img src="imagens/passo-4.png" alt="choose theme" align="center">
+    </li>
+    <li>
+    Não esqueça de alterar a branch que será puxada, no caso a master. mas pode salvar a nova branch que é criada por padrão (gh-page) e só depois alterar</br>
+    <img src="imagens/passo-5.png" alt="change to master" align="center">
+    </li>
+    <li>
+    Depois de uns minutinhos (demora um pouqinho pra atualizar) o link vai abrir o arquivo README.md do repositório. Para conseguir abrir outro arquivo, basta indicar o caminho das pastas na url.</br>
+    <img src="imagens/passo-6.png" alt="exemple of github page" align="center">
+    </li>
   </ol>
-  <p>1. Vá em "Settings"</p>
-  <img src="imagens/passo-1.png" alt="settings" align="center">
-  </br></br></br>
-  <img src="imagens/passo-2.png" alt="github pages" align="center">
-  <img src="imagens/passo-3.png" alt="github pages page" align="center">
-  <img src="imagens/passo-4.png" alt="choose theme" align="center">
-  <img src="imagens/passo-5.png" alt="change to master" align="center">
-  <img src="imagens/passo-6.png" alt="exemple of github page" align="center">
+  
+  
+  
+  
+  
+  
 </div>
 
 #### Colocando o projeto feito no GitHub pages
