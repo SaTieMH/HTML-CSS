@@ -31,7 +31,13 @@
 #### Passo-a-passo de como criar o GitHub Pages.
 
 <div>
-  <p text-decoration="undreline" font-size='18px'>1. Vá em "Settings"</p>
+  <ol>
+    <li>
+    Vá em "Settings"</br>
+    <img src="imagens/passo-1.png" alt="settings" align="center">
+    </li>
+  </ol>
+  <p>1. Vá em "Settings"</p>
   <img src="imagens/passo-1.png" alt="settings" align="center">
   </br></br></br>
   <img src="imagens/passo-2.png" alt="github pages" align="center">
