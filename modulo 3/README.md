@@ -86,6 +86,11 @@
     </li> 
     </br></br></br>
     <li>
+    No momento em que ele for criar um repositório no GitHub certifique-se de que o mesmo não está subindo como um repositório privado. Caso contrário não estará disponível para as pessoas visualizarem.</br>
+    <img src="imagens/projeto-github-pages/passo-4.png" alt="github pages page" align="center">
+    </li> 
+    </br></br></br>
+    <li>
     Repita os passos de como criar um github pages para este repositório. Pois lembrando que ao fazer isso, a criação do githubpages passa a valer apenas para o repositório selecionado. Como foi criado um novo é necessário repetir os passos.</br>
     </li>    
   </ol> 
