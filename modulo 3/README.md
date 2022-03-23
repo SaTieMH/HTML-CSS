@@ -28,11 +28,21 @@
 ------------------------------------------------
 ### Hospedando site gratuitamente com GitHub Pages - Aula 06
 
+#### Passo-a-passo de como criar o GitHub Pages.
+
 <div align="center">
+  <p>1. Vá em "Settings"</p>
   <img src="imagens/passo-1.png" alt="settings">
+  </br>
   <img src="imagens/passo-2.png" alt="github pages">
   <img src="imagens/passo-3.png" alt="github pages page">
   <img src="imagens/passo-4.png" alt="choose theme">
   <img src="imagens/passo-5.png" alt="change to master">
   <img src="imagens/passo-6.png" alt="exemple of github page">
 </div>
+
+#### Colocando o projeto feito no GitHub pages
+- Vamos fazer isso aparecendo uma url mais bonitinha e fácil de ser acessada pelas pessoas.
+
+- Para começar você deve criar um novo repositório dedicado para a página, para que não seja necessário entrar em diversas páginas para conseguir chegar até o projeto.
+
