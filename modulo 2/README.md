@@ -946,4 +946,7 @@ h1 {
 
 - Criar uma conta no Mockflow - desenhar a estrutura do seu site
  - https://mockflow.com/
-mm
+
+------------------------------------------------
+### Responsividade para sites [desafio 010 - teste de responsividade]
+- responsividade.html
