@@ -24,3 +24,15 @@
 
 ------------------------------------------------
 ### Gerenciando Repositórios GitHub - Aula 05
+
+------------------------------------------------
+### Hospedando site gratuitamente com GitHub Pages - Aula 06
+
+<div align="center">
+  <img src="imagens/passo-1.png" alt="settings">
+  <img src="imagens/passo-2.png" alt="github pages">
+  <img src="imagens/passo-3.png" alt="github pages page">
+  <img src="imagens/passo-4.png" alt="choose theme">
+  <img src="imagens/passo-5.png" alt="change to master">
+  <img src="imagens/passo-6.png" alt="exemple of github page">
+</div>
