@@ -77,17 +77,16 @@
     </br></br></br>
     <li>
     Copie os arquivos do projeto na pasta do repositório.</br>
-    <img src="imagens/criar-github-pages/passo-2.png" alt="github pages" align="center">
+    <img src="imagens/projeto-github-pages/passo-2.png" alt="github pages" align="center">
     </li>
     </br></br></br>
     <li>
     Altere o nome do arquivo .html para index, pois assim o navegador já vai entender que se trata de um site e já vai puxar este documento e abrir o site.</br>
-    <img src="imagens/criar-github-pages/passo-3.png" alt="github pages page" align="center">
+    <img src="imagens/projeto-github-pages/passo-3.png" alt="github pages page" align="center">
     </li> 
     </br></br></br>
     <li>
     Repita os passos de como criar um github pages para este repositório. Pois lembrando que ao fazer isso, a criação do githubpages passa a valer apenas para o repositório selecionado. Como foi criado um novo é necessário repetir os passos.</br>
-    <img src="imagens/criar-github-pages/passo-3.png" alt="github pages page" align="center">
     </li>    
   </ol> 
 </div>
