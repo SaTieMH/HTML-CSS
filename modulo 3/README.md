@@ -30,15 +30,15 @@
 
 #### Passo-a-passo de como criar o GitHub Pages.
 
-<div align="center">
+<div>
   <p>1. Vá em "Settings"</p>
-  <img src="imagens/passo-1.png" alt="settings">
-  </br>
-  <img src="imagens/passo-2.png" alt="github pages">
-  <img src="imagens/passo-3.png" alt="github pages page">
-  <img src="imagens/passo-4.png" alt="choose theme">
-  <img src="imagens/passo-5.png" alt="change to master">
-  <img src="imagens/passo-6.png" alt="exemple of github page">
+  <img src="imagens/passo-1.png" alt="settings" align="center">
+  </br></br></br>
+  <img src="imagens/passo-2.png" alt="github pages" align="center">
+  <img src="imagens/passo-3.png" alt="github pages page" align="center">
+  <img src="imagens/passo-4.png" alt="choose theme" align="center">
+  <img src="imagens/passo-5.png" alt="change to master" align="center">
+  <img src="imagens/passo-6.png" alt="exemple of github page" align="center">
 </div>
 
 #### Colocando o projeto feito no GitHub pages
