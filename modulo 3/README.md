@@ -97,7 +97,7 @@
     </li>    
   </ol> 
 </div>
-</br></br></br>
+</br>
 
 ------------------------------------------------
 ### Manutenção em sites hospedados no GitHub Pages - Aula 07
@@ -112,3 +112,8 @@
 ### GitHub em vários PCs - Aula 10
 
 - É necessário ter instalado o git e o GitHub desktop no pc que você faráo clone.
+
+
+## Capítulo 19 - Imagens de fundo
+------------------------------------------------
+### Download das imagens do capítulo - Aula 01
