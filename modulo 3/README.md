@@ -18,6 +18,9 @@
 ------------------------------------------------
 ### Primeiro repositório git e GitHub - Aula 04
 
+<div align="center">
+  <img src="imagens/criando-repositorio.png" alt="criando repositório">
+</div>
+
 ------------------------------------------------
 ### Gerenciando Repositórios GitHub - Aula 05
-
