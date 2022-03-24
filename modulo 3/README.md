@@ -117,3 +117,41 @@
 ## Capítulo 19 - Imagens de fundo
 ------------------------------------------------
 ### Download das imagens do capítulo - Aula 01
+- ex_024 > imagens
+
+------------------------------------------------
+### Colocando uma imagem de fundo no seu site - Aula 02
+- ex_024 > fundo001.html
+- Aplicando background-image
+```css
+  background-image: url(imagens-cap19/wallpaper001.jpg);
+```
+- Por default a imagem vai se repetir
+
+------------------------------------------------
+### Imagens que se repetem no fundo do site - Aula 03
+- ex_024 > fundo002.html
+
+- Aplicando algumas propriedades no background-image
+```css
+  background-image: url(imagens-cap19/wallpaper001.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+```
+
+- Também posso fazer repetir apenas no eixo x ou no eixo y
+```css
+  background-image: url(imagens-cap19/wallpaper001.jpg);
+  background-size: 100px 100px;
+  background-repeat: repeat-x; //ou repeat-y
+```
+- Lembrando que sempre vai começar a repetir a partir do canto superior esquerdo. Posso alterar isso também.
+
+- Também posso alterar a imagem para uma imagem da internet
+```css
+  background-image: url(https://i.pinimg.com/736x/23/c2/df/23c2df2507e29e38853b5c8ddd6f62a0.jpg);
+```
+
+------------------------------------------------
+### Configurando a posição da imagem no fundo do site - Aula 04
+- ex_024 > fundo003.html
