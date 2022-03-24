@@ -163,9 +163,53 @@
 - ex_024 > fundo005.html
 
 ------------------------------------------------
-### Mudando o tamanho do tamanho da imagem de fundo do site - Aula 04
+### Mudando o tamanho do tamanho da imagem de fundo do site - Aula 05
 - ex_024 > fundo006.html
 
 - background-size: contain; - resultado semelhante ao 100%
 - background-size: cover; - Cobre a tela inteira, mesmo que tenha que picotar a imagem.
 - LEMBRANDO: deve ser colocado height: 100vh;
+
+------------------------------------------------
+### background-attachment e shorthand - Aula 06
+- ex_024 > fundo006.html
+
+- Fixar o fundo da tela com background-attachment
+ - scroll: faz com que o fundo role junto
+ - fixed: faz com que o fundofique fixo e não role junto com a tela
+
+- OU SEJA: Juntando o background-size: cover e background-attachment: fixed consigo deixar a imagem ajustada ao tamanho da tela e fixa durante a rolagem.
+
+#### Shorthand background
+- color
+- image
+- position
+- repeat
+- [size]
+- attachment
+
+- sem shorthand
+```css
+  height: 100vh;
+  background-color: black;
+  background-image: url(imagens-cap19/wallpaper002.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+```
+
+- com shorthand
+```css
+  height: 100vh;
+
+  background: black url(imagens-cap19/wallpaper002.jpg) center center no-repeat fixed;
+
+  background-size: cover;
+```
+
+- Apenas o background-size (aparentemente ainda) não é compatível com todos os navegadores. Por conta disso ele deve ficar de fora do shorthand.
+
+------------------------------------------------
+### Configurando a posição da imagem no fundo do site - Aula 04
+- ex_024 > fundo003.html
