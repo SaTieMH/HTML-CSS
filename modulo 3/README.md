@@ -212,4 +212,11 @@
 
 ------------------------------------------------
 ### Centralização vertical de caixas - Aula 07
-- ex_024 > fundo006.html
+- ex_024 > fundo007.html
+
+- Utilizamos margin: auto para centralizar o conteúdo horizontalmente, mas <strong>como fazer para alinhar o conteúdo verticalmente?</strong>
+- Para resolver esse problema é preciso utilizar o posicionamento relativo, ou seja, a caixa externa terá um posicionamento relativo (não é necessário declarar essa parte por que já é padrão, todo elemento no html tem posicionamento relativo)
+- Além disso é importante que o conteúdo interno seja posicionado de maneira absoluta
+
+- PROBLEMA: Quando uso posicionamento absoluto eu acabo considerando o canto superior esquerdo do elemento e não seu centro.
+- RESOLVENDO: Para resolver isso eu posso usar uma transformação nas caixas (transform). Neste caso vou usar a função (translate())
