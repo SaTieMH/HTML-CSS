@@ -211,5 +211,5 @@
 - Apenas o background-size (aparentemente ainda) não é compatível com todos os navegadores. Por conta disso ele deve ficar de fora do shorthand.
 
 ------------------------------------------------
-### Configurando a posição da imagem no fundo do site - Aula 04
-- ex_024 > fundo003.html
+### Centralização vertical de caixas - Aula 07
+- ex_024 > fundo006.html
