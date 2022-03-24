@@ -155,3 +155,13 @@
 ------------------------------------------------
 ### Configurando a posição da imagem no fundo do site - Aula 04
 - ex_024 > fundo003.html
+
+- Brincando com a posição da imagem de fundo para entender melhor do que se trata com background-position
+- A posição indicada no background-position será a posição na qual a imagem se manterá ancorada, ou seja, independente do tamanho da janela do navegador, a imgem começará a ser exibida a partir daquele ponto.
+
+- ex_024 > fundo004.html
+- ex_024 > fundo005.html
+
+------------------------------------------------
+### Mudando o tamanho do tamanho da imagem de fundo do site - Aula 04
+- ex_024 > fundo003.html
