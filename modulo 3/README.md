@@ -164,4 +164,8 @@
 
 ------------------------------------------------
 ### Mudando o tamanho do tamanho da imagem de fundo do site - Aula 04
-- ex_024 > fundo003.html
+- ex_024 > fundo006.html
+
+- background-size: contain; - resultado semelhante ao 100%
+- background-size: cover; - Cobre a tela inteira, mesmo que tenha que picotar a imagem.
+- LEMBRANDO: deve ser colocado height: 100vh;
