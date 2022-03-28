@@ -252,7 +252,25 @@
 ### Colocando as fontes ao projeto - Aula 05
 - desafio 12 - Cordel Moderno
 
+- Efeito do título em caps lock
+```css
+  font-variant: small-caps;
+```
+
+- Fonte de tamanho responsivo
+```css
+  font-size: 10vw;
+```
+
+- Caixa de texto se adequando ao tamanho do texto
+```css
+  display: inline-block;
+```
+
 ------------------------------------------------
 ### Imagens com efeito Parallax - Aula 06
 - desafio 12 - Cordel Moderno
 
+```css
+  background-attachment: fixed;
+```

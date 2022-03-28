@@ -51,6 +51,7 @@ header a:hover {
 
 main {
     font-family: var(--fonte-cordel);
+    background-color: rgb(243, 243, 243);
 }
 
 main section {
@@ -64,17 +65,23 @@ main section p {
     font-size: 3vw;
 }
 
+main section.image {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
+}
+
 main section.normal p {
-    margin-bottom: 50px;
+    margin-bottom: 3em;
 }
 
 main section.image p {
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 10px;
-    padding-right: 30px;
+    padding-right: 2em;
     text-shadow: 1px 1px 0px black;
     display: inline-block;
+
 }
 
 #butterfly {
