@@ -220,3 +220,9 @@
 
 - PROBLEMA: Quando uso posicionamento absoluto eu acabo considerando o canto superior esquerdo do elemento e não seu centro.
 - RESOLVENDO: Para resolver isso eu posso usar uma transformação nas caixas (transform). Neste caso vou usar a função (translate())
+
+
+## Capítulo 20 - Projeto Completo
+------------------------------------------------
+### Um projeto completo usando HTML e CSS - Aula 01
+- ex_024 > fundo003.html
