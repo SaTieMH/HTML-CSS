@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 /*
 Filename: estilo.css
 Author: Natália Satie
@@ -27,16 +31,12 @@ header {
 header h1 {
     font-family: var(--fonte-titulo);
     font-variant: small-caps;
-}
-
-@media screen and (max-width: 400px) {
-    header h1 {
-        font-size: 20px;
-    }
+    font-size: 10vw;
 }
 
 header p {
     font-family: var(--fonte-padrao);
+    font-size: 3vw;
 }
 
 header a {
@@ -61,6 +61,7 @@ main section {
 main section p {
     line-height: 200%;
     margin: 10px 30px;
+    font-size: 3vw;
 }
 
 main section.normal p {
@@ -68,11 +69,12 @@ main section.normal p {
 }
 
 main section.image p {
-    min-width: 300px;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 10px;
+    padding-right: 30px;
     text-shadow: 1px 1px 0px black;
+    display: inline-block;
 }
 
 #butterfly {
