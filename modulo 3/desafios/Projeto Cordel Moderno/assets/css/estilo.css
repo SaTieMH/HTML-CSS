@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*
+Filename: estilo.css
+Author: Natália Satie
+Date: 28/03/2022
+*/
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-cordel: 'Sriracha', cursive;
+    --fonte-titulo: 'Passion One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 20px;
+    }
+}
+
+header p {
+    font-family: var(--fonte-padrao);
+}
+
+header a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: var(--fonte-cordel);
+}
+
+main section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+main section p {
+    line-height: 200%;
+    margin: 10px 30px;
+}
+
+main section.normal p {
+    margin-bottom: 50px;
+}
+
+main section.image p {
+    min-width: 300px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#butterfly {
+    background-color: black;
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+}
+
+#papers {
+    background-image: url(../imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

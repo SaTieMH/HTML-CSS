@@ -225,4 +225,34 @@
 ## Capítulo 20 - Projeto Completo
 ------------------------------------------------
 ### Um projeto completo usando HTML e CSS - Aula 01
-- ex_024 > fundo003.html
+- desafio 12 - Cordel Moderno
+
+------------------------------------------------
+### Download e organização dos arquivos - Aula 02
+- desafio 12 - Cordel Moderno
+- Baixando arquivos
+
+------------------------------------------------
+### Ajustes no HTML do projeto - Aula 03
+- desafio 12 - Cordel Moderno
+- Montando o arquivo html
+
+------------------------------------------------
+### Ajustes no CSS do projeto - Aula 04
+- desafio 12 - Cordel Moderno
+- Montando o arquivo css
+
+- Para funcionar melhor o efeito parallax independente do tamamanho da tela é importante colocar os espaçamentos entre os trechos, e para isso utilizar a view port (neste caso com 10% do tamanho).
+```css
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+```
+
+------------------------------------------------
+### Colocando as fontes ao projeto - Aula 05
+- desafio 12 - Cordel Moderno
+
+------------------------------------------------
+### Imagens com efeito Parallax - Aula 06
+- desafio 12 - Cordel Moderno
+
