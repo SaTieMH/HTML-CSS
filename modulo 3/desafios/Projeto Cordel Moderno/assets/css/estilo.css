@@ -92,6 +92,7 @@ main section.image p {
 
 #papers {
     background-image: url(../imagens/background002.jpg);
+    background-position: bottom right;
 }
 
 footer {
