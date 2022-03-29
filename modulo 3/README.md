@@ -268,9 +268,19 @@
 ```
 
 ------------------------------------------------
-### Imagens com efeito Parallax - Aula 06
+### Imagens com efeito Parallax simples - Aula 06
 - desafio 12 - Cordel Moderno
 
 ```css
   background-attachment: fixed;
 ```
+
+------------------------------------------------
+### Hospedando o Projeto Cordel gratuitamente - Aula 07
+- Projeto cordel-moderno
+
+
+## Capítulo 21 - Tabelas
+------------------------------------------------
+### Ainda podemos usar tabelas em HTML? - Aula 01
+- Ainda se usa tabela para apresentar dados, porém não para a construção de layout de site.
